@@ -6,16 +6,42 @@ developed as part of an Embedded Engineer Intern assignment.
 
 Author: Shiva Goud
 
-# COMMIT 1:
- 
-## This is commit 1. So, I just created all the necessary files for the project.
-## Files include 
-1. README.md
-2. stats.c
-3. stats.h
+# COMMIT 2
 
-## File Description
-1. README.md contains all the information of project 
-2. stats.c file contains all the source code
-3. stats.h file contains function declarations of functions that are declared in stats.c file
+## This Commit includes 2 things. 
+## 1. Creating all the skeleton functions in stats.c file
+## 2. Declaring all the functions in used stats.c source file to stats.h header file
 
+
+## Below are the newly declared fuctions in stats.h file
+void print_statistics(unsigned char *data, unsigned int length);
+
+void print_array(unsigned char *data, unsigned int length);
+
+unsigned char find_median(unsigned char *data, unsigned int length);
+
+unsigned char find_mean(unsigned char *data, unsigned int length);
+
+unsigned char find_maximum(unsigned char *data, unsigned int length);
+
+unsigned char find_minimum(unsigned char *data, unsigned int length);
+
+void sort_array(unsigned char *data, unsigned int length);
+
+
+
+## Below is the newly declared skeleton function in stats.c file
+
+void print_statistics(unsigned char *data, unsigned int length){}
+
+void print_array(unsigned char *data, unsigned int length){}
+
+unsigned char find_median(unsigned char *data, unsigned int length){ return 0; }
+
+unsigned char find_mean(unsigned char *data, unsigned int length){  return 0; }
+
+unsigned char find_maximum(unsigned char *data, unsigned int length){  return 0; }
+
+unsigned char find_minimum(unsigned char *data, unsigned int length){   return 0; }
+
+void sort_array(unsigned char *data, unsigned int length){}
